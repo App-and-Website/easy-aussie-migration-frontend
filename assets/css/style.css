@@ -69,10 +69,10 @@
 
 
 :root{
-  --main-color: #032B66;
+  --main-color: #284e9e;
   --secondary-color: #5E789C;
   --text-color: #888888;
-  --title-color: #032B66;
+  --title-color: #284e9e;
   --white-color: #ffffff;
   --heebo: 'Heebo', sans-serif;
   --maven: 'Maven Pro', sans-serif;
@@ -1157,7 +1157,7 @@ img {
   display:none;
   border-radius: 0px;
   padding: 10px 0px;
-  background: #032B66;
+  background: #284e9e;
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
   -webkit-transition:all 500ms ease;

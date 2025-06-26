@@ -293,35 +293,6 @@
 	}
 
 
-    // three-item-carousel
-	if ($('.three-item-carousel').length) {
-		$('.three-item-carousel').owlCarousel({
-			loop:true,
-			margin:30,
-			nav:true,
-			smartSpeed: 500,
-			autoplay: 1000,
-			navText: [ '<span class="icon-10"></span>', '<span class="icon-11"></span>' ],
-			responsive:{
-				0:{
-					items:1
-				},
-				480:{
-					items:1
-				},
-				600:{
-					items:2
-				},
-				800:{
-					items:2
-				},			
-				1200:{
-					items:3
-				}
-
-			}
-		});    		
-	}
 
 	// three-item-carousel
 	if ($('.three-item-carousel-two').length) {
