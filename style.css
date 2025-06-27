@@ -387,7 +387,9 @@ column-gap: 10px;
   column-gap: 60px;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
+
 .copyright a{
   color: #fff!important;
 }
@@ -449,7 +451,19 @@ border-radius: 5px;
     max-width: 900px;
 }
 
-
+.banner_custom_form h3{
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #000080;
+}
+.banner_custom_form .submit-button {
+  background-color: #000080;
+  color: #fff;
+}
+.banner_custom_form {
+border: 6px solid #d3a902;
+}
 
 @media screen and (max-width: 1200px) {
   #headmain .auto-container{
@@ -514,6 +528,24 @@ border-radius: 5px;
 .three-item-carousel {
   display: grid;
   grid-template-columns:   auto;
+}
+.list_flex ul{
+  column-gap: 40px;
+}
+.faq_text{
+  padding-left: 0;
+}
+.faq-section .sec-title .sub-title:before {
+    left: -35px;
+}
+.faq-section .sec-title .sub-title:after {
+    left: 0px;
+}
+.faq-section {
+  margin-top: -80px!important;
+}
+.banner_custom_form{
+  margin: 0;
 }
 }
 
