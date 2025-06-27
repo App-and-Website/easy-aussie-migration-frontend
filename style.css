@@ -19,9 +19,17 @@ Navy Blue: #000080
 .btn_color a:hover:hover {
     box-shadow: none;
 }
+.header_main .container{
+    position: static;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
 
 .logo_topbarm{
   padding: 5px 0!important;
+}
+.logo_topbarm figure{
+  margin-left: -15px;
 }
 .logo_topbarm img{
   max-height: 100px;
@@ -126,8 +134,17 @@ box-shadow: rgba(0, 0, 128, 0.1) 0px 20px 25px -5px, rgba(0, 0, 128, 0.04) 0px 1
 }
 
 .banner_main {
-    padding: 150px 0px 100px 0px;
+    padding: 130px 0px 100px 0px;
 }
+.header-style-two .header-lower .outer_box1 .map_topbar {
+   position: absolute;
+   left: 80px;
+}
+.header-style-two  .scrollactive .outer_box1 .map_topbar {
+   position: absolute;
+   left: 100px;
+}
+
 .banner_text h2{
     color: #fff;
 }
@@ -164,8 +181,8 @@ box-shadow: rgba(0, 0, 128, 0.1) 0px 20px 25px -5px, rgba(0, 0, 128, 0.04) 0px 1
     content: "";
     position: absolute;
     height: 2px;
-    width: 98%;
-    left: 25px;
+    width: 92%;
+    left: 80px;
     top: 0;
     background: #333;
 }
@@ -593,7 +610,7 @@ nav:before, .testimonial-style-two .owl-nav:before {
 
 @media only screen and (max-width: 499px) {
     .header-style-two .header-lower .logo-box {
-        width: 40%;
+        width: 30%;
     }
     .mob_menu_main .mb_wrapper .mrc{
        margin-right: 30px;
