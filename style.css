@@ -464,8 +464,48 @@ border-radius: 5px;
 .banner_custom_form {
 border: 6px solid #d3a902;
 }
-
-
+.testimonial-block-one .inner-box {
+    background: #f7f5ee;
+}
+.visa-block-one .inner-box .lower-content {
+    background: #f7f5ee;
+}
+.news-block-one .inner-box .lower-content {
+     background: #f7f5ee;
+}
+.nav-style-one button {
+    background: #d3a902;
+}
+nav:before, .testimonial-style-two .owl-nav:after {
+    background: #ece8d9;
+}
+nav:before, .testimonial-style-two .owl-nav:before {
+    background: #ece8d9;
+}
+.theme-btn {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+    padding: 12px 40px;
+    text-transform: capitalize;
+    font-family: var(--heebo);
+    color: var(--white-color) !important;
+    background: var(--secondary-color);
+    z-index: 1;
+    transition: all 500ms ease;
+    border-radius: 6px;
+    margin-top: -10px;
+}
+.why_choose_sec .chooseus-block-one{
+  background: #f7f5ee;
+  padding: 20px;
+  border-radius: 4px;
+}
 @media screen and (max-width: 1200px) {
   #headmain .auto-container{
   display: flex;
