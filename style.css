@@ -670,6 +670,18 @@ nav:before, .testimonial-style-two .owl-nav:before {
     .why_sec_abt .chooseus-block-one{
         background: #f8f8fd;
     }
+    
+
+.contact_page_form .form-group{
+  margin-bottom: 20px!important;
+}
+.contact_page_form .form-group textarea{
+  height: 180px!important;
+}
+.contact_page_form .form-group input{
+  padding: 10px;
+}
+
 
 
 @media screen and (max-width: 1200px) {
