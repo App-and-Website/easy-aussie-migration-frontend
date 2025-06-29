@@ -646,6 +646,9 @@ nav:before, .testimonial-style-two .owl-nav:before {
     .sec_about{
       margin-top: 40px!important;
     }
+    .about_sec_image img{
+      padding-right: 60px;
+    }
     .reg_sec{
       display: flex; 
       justify-content: center;
@@ -680,6 +683,18 @@ nav:before, .testimonial-style-two .owl-nav:before {
 }
 .contact_page_form .form-group input{
   padding: 10px;
+}
+.contact-style-two .form-inner .form-group input[type='text'], .contact-style-two .form-inner .form-group input[type='email'], .contact-style-two .form-inner .form-group textarea {
+    height: 50px;
+    color: #222;
+    padding: 10PX;
+    background: #f8f9fa;
+    border: 1px solid #ccc;
+}
+.contact-style-two .form-inner .form-group input[type='text']:focus, .contact-style-two .form-inner .form-group input[type='email']:focus, .contact-style-two .form-inner .form-group textarea:focus, 
+.contact-style-two .form-inner .form-group input[type='tel']:focus, .contact-style-two .form-inner .form-group .select-input:focus{
+    box-shadow: none;
+    border: 1px solid #ccc;
 }
 
 
@@ -766,6 +781,9 @@ nav:before, .testimonial-style-two .owl-nav:before {
 .banner_custom_form{
   margin: 0;
   margin-top: 40px;
+}
+.about_sec_image img{
+  padding-right: 0px;
 }
 }
 
