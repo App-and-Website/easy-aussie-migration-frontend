@@ -698,6 +698,20 @@ nav:before, .testimonial-style-two .owl-nav:before {
 }
 
 
+.blog_content h1{
+  font-weight: 600;
+  margin-bottom: 20PX;
+}
+.blog_details_side .banner_custom_form{
+  margin: 0;
+}
+@media only screen and (max-width: 480px) {
+    .blog-sidebar .sidebar-widget {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 
 @media screen and (max-width: 1200px) {
   #headmain .auto-container{
@@ -784,6 +798,9 @@ nav:before, .testimonial-style-two .owl-nav:before {
 }
 .about_sec_image img{
   padding-right: 0px;
+}
+.blog_details_sec{
+  padding-top: 150px;
 }
 }
 
