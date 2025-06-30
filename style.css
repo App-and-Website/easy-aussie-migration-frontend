@@ -779,6 +779,26 @@ margin-left: 25px;
   color: #274b98;
 }
 
+.content_block_three .mtb{
+  color: #ddd;
+}
+.mt_button{
+  margin-top: 25px;
+}
+/* .mt_button a{
+  background: #274b98!important;
+  color: #fff!important;
+}
+.sec_serv_cta:before {
+    background: #d3a902;
+}
+.sec_serv_cta h2{
+  color: #274b98!important;
+}
+.sec_serv_cta .mtb{
+  color: #222!important;
+} */
+
 @media only screen and (max-width: 480px) {
     .blog-sidebar .sidebar-widget {
         padding-left: 15px;
@@ -862,6 +882,11 @@ margin-left: 25px;
   font-size: 30px;
   line-height: 32px;
 }
+.content_block_three .content-box h2 {
+  font-size: 30px;
+  line-height: 32px;
+}
+
 }
 
 @media screen and (max-width: 768px) {
